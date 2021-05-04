@@ -3,6 +3,8 @@
 gitbook init
 服务打开
 gitbook serve
+安装插件
+gitbook install
 
 ##创建仓库与分支
 登陆到Github，创建一个新的仓库，名称我们就命名为book，这样我就得到一个book仓库。
