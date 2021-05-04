@@ -9,4 +9,5 @@ git remote remove origin
 git branch -M main
 git push -u origin main
 
-
+查看库中的所有分支
+git branch -v 
