@@ -24,9 +24,6 @@
         "simple-page-toc"
     ],
     "pluginsConfig": {
-        "code": {
-            "copyButtons": false
-        },
         "hide-element": {
             "elements": [
                 ".gitbook-link"
