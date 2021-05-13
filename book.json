@@ -11,16 +11,22 @@
         "-lunr", 
         "-search", 
         "-highlight",
-        "code", 
+        "prism",
+        "code",
+        "-copy-code-button",
         "search-pro",
         "splitter",
         "-chapter-fold",
         "hide-element",
         "page-toc-button",
         "back-to-top-button",
-        "tbfed-pagefooter"
+        "tbfed-pagefooter",
+        "simple-page-toc"
     ],
     "pluginsConfig": {
+        "code": {
+            "copyButtons": false
+        },
         "hide-element": {
             "elements": [
                 ".gitbook-link"
@@ -42,6 +48,10 @@
         },
         "theme-default": {
             "showLevel": true
+        },
+        "simple-page-toc": {
+            "maxDepth": 3,
+            "skipFirstH1": true
         }
     }
 }

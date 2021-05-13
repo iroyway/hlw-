@@ -1,10 +1,16 @@
 # gitbook安装
 初始化git
+```
 gitbook init
+```
 服务打开
+```
 gitbook serve
+```
 安装插件
+```
 gitbook install
+```
 
 ## 创建仓库与分支
 登陆到Github，创建一个新的仓库，名称我们就命名为book，这样我就得到一个book仓库。
@@ -22,7 +28,11 @@ http://USERNAME.github.io/book
 下面我们就可以将build好的静态网站代码同步到gh-pages分支中去了：
 
 切换出master分支目录。我们需要将gh-pages分支内容存放在另外一个目录中
-克隆gh-pages分支： git clone -b gh-pages git@github.com:USER_NAME/book.git book-end。这步我们只是克隆了gh-pages分支，并存放在一个新的目录book-end。
+克隆gh-pages分支： 
+```
+git clone -b gh-pages git@github.com:USER_NAME/book.git book-end
+```
+这步我们只是克隆了gh-pages分支，并存放在一个新的目录book-end。
 Copy静态网站到book-end目录中
 Push到仓库
 然后，等十来分钟后，你就可以访问到你的在线图书了。以后，只要你每次修改之后，将生成静态网站Copy到book-end目录，然后Push一下就OK了。
