@@ -35,7 +35,10 @@ docker container inspect id/name
 ```
 docker exec -it jd_scripts /bin/sh
 ```
-
+您可以使用以下命令从主机上运行的程序中删除文件
+```
+docker exec <container> rm -rf <YourFile>
+```
 手动运行一下所有脚本  
 ```
 docker exec -it jd_scripts /bin/sh -c 'ls jd_*.js |xargs -i node {}'
