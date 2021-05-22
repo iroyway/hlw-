@@ -51,9 +51,9 @@ git push -u origin master
 
 ### 新建分支
 ```
-git checkout --orphan pages
+git checkout --orphan gh-pages
 ```
-新建名为pages的分支，分支名称随意，但最好能反映出分支的用途。
+新建名为gh-pages的分支，分支名称一定要为这个。
 
 ### 删除不需要的文件
 切换到pages分支后，我们需要将_books目录之外的文件都清理掉：
@@ -85,7 +85,7 @@ git commit -m '更新说明'
 ```
 ### 推送
 ```
-git push -u origin pages
+git push -u origin gh-pages
 ```
 现在开启git托管网站的pages服务即可。
 
@@ -96,11 +96,11 @@ git checkout master
 git add .
 git commit -m $1
 git push -u origin master
-git checkout pages
+git checkout gh-pages
 cp -r _book/* .
 git add .
 git commit -m $1
-git push -u origin pages
+git push -u origin gh-pages
 git checkout master
 ```
 在需要更新的时候，执行如下命令：
