@@ -23,6 +23,7 @@
      * [docker镜像redrain](docker/dockerimages/redrain.md)
      * [docker镜像python39](docker/dockerimages/python.md)
    * [docker使用笔记](docker/dockerbiji/README.md)
-     * [docker使用笔记](docker/dockerbiji/Alpine.md)
+     * [Alpine详解](docker/dockerbiji/Alpine.md)
+     * [Alpine ssh启动](docker/dockerbiji/Alpinessh.md)
 * [薅羊毛](yangmao/README.md)
    * [京东羊毛](yangmao/jingdongyangmao.md)
